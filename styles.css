@@ -1,0 +1,212 @@
+:root {
+    --blue: #26a9e0;
+    --white: #ffffff;
+    --black: #212427;
+    --grey: #bcbcbc;
+    --offwhite: #f3f6f4;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    background-color: var(--offwhite);
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    flex-direction: column;
+}
+
+.inner-container {
+    height: 300px;
+    flex: 1 1 auto;
+    border: 2px solid var(--black);
+    display: flex;
+    justify-content: center;
+}
+
+.outline-container {
+    width: 2000px;
+    background-color: var(--offwhite);
+}
+
+#inner-container1 {
+    height: 400px;
+    background-color: var(--black);
+}
+
+.container.row.nav {
+    width: 100%;
+    height: 30%;
+    justify-content: space-between;
+    background-color: var(--black)
+}
+
+.container.row {
+    flex-direction: row;
+}
+
+.nav.content {
+    height: 20%;
+    width: 200px;
+    height: 70px;
+}
+
+.nav.content h2 {
+    text-align: left;
+    color: var(--offwhite)
+}
+
+#header-links {
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1px;
+}
+
+.link {
+    height: 20%;
+    width: 20%;
+    text-align: center;
+    text-decoration: none;
+    color: var(--offwhite);
+}
+
+#top-section-content {
+    justify-content: space-between;
+    height: auto;
+    height: 70%;
+    background-color: var(--black);
+}
+
+.nav.content.section {
+    width: 1000px;
+    height: 250px;
+}
+
+.card.container {
+    width: 250px;
+    height: 250px;
+    background-color: var(--offwhite);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#card-section-content {
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    height: auto;
+}
+
+#card-header {
+    text-align: center;
+    height: 60px;
+}
+
+.card>img {
+    border: 2px solid var(--blue);
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.card>p {
+    text-align: center;
+}
+
+#inner-container2 {
+    height: 400px;
+}
+
+#quote-section-content {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--grey);
+}
+
+#quote-section-content>p {
+    text-align: left;
+    font-size: 32px;
+    width: 50%;
+    margin-block-end: 0;
+}
+
+#quote-section-content>p:last-child {
+    text-align: right;
+    font-weight: 400;
+    margin: 0;
+}
+
+#flash-section-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#inner-container4 {
+    height: 225px;
+}
+
+#inner-container5 {
+    height: 50px;
+    background-color: var(--black);
+}
+
+#inner-container3 {
+    background-color: var(--grey);
+}
+
+.container.flash {
+    height: 60%;
+    width: 70%;
+    background-color: var(--blue);
+    border-radius: 10px;
+    justify-content: space-around;
+}
+
+#flash-button {
+    display: flex;
+    align-items: center;
+}
+
+#flash-button>button {
+    height: 40px;
+    width: 100px;
+    background-color: var(--white);
+}
+
+#flash-button>button:hover {
+    height: 40px;
+    width: 100px;
+    background-color: var(--blue);
+    color: white;
+}
+
+#flash-text-content {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+#flash-text-content>* {
+    margin: 0;
+}
+
+#footer-section-content {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: var(--white);
+    background-color: var(--black);
+}
